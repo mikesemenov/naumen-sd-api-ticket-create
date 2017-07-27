@@ -1,2 +1,12 @@
 # naumen-sd-api-ticket-create
-Naumen SD(ITSM365.com) API ticket create with comand line. 
+
+Naumen SD(ITSM365.com) API ticket create with comand line.
+
+# Небольшой скрипт для работы с ServiceDesk системой компании Naumen(ITSM365)
+
+В наших целях он использовался для создания завок на основе номера телефона и почты.
+для запуска возможны разные аттрибуты
+- newticket - создание заявки на основе почты и темы
+- phonecall - создание заявки и поиск человека на основе телефона
+- avcheck - используется для создания регламентных заявок по времени с использованием crontab
+
